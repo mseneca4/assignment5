@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" css/styles.css""> </head> <body>
+
+    <header>
+        <nav>
+
+            <a href="index.html"><img src="images/lakerslogo.png" alt="Lakers Logo" height="100"></a>
+
+            <ul>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="pictures.html">Pictures</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="results.html">
+            <p>
+                <label for="Rings">How many Rings does kobe have? </label>
+                <input type="text" name="Rings" id="Rings">
+            </p>
+            <p>
+                <label for="scorer">Who is the Lakers all time leading scorer?</label>
+                <input type="text" name="scorer" id="scorer">
+            </p>
+            <p>
+                <label for="champion">How many championships have the lakers won? </label>
+                <input type="text" name="champion" id="champion">
+            </p>
+            <p>
+                <label for="leading">Who is leading the lakers in scoring this season?</label>
+                <select name="leading" id="leading" multiple>
+                    <option value="kuz">Kyle Kuzma</option>
+                    <option value="ad">Anthony Davis</option>
+                    <option value="dud">Jared Dudley</option>
+                    <option value="green">Danny Green</option>
+                    <option value="AD">Anthony Davis</option>
+                    <option value="howard">Dwight Howard</option>
+                </select>
+            </p>
+            <div class="radio-buttons">
+                <label>Want updates on how the lakers are doing? Join our email list! </label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+            </div>
+
+            <label>What other NBA teams do you follow?</label>
+            <div class="checkbox-group">
+                <p class="checkbox-item"><input type="checkbox" name="team" value="clippers">LA Clippers</p>
+                <p class="checkbox-item"><input type="checkbox" name="team" value="celtics">Boston Celtics</p>
+                <p class="checkbox-item"><input type="checkbox" name="team" value="warriors">Golden State Warriors</p>
+            </div>
+
+            <br>
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+
+    </main>
+    </body>
+
+</html>
